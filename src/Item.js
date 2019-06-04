@@ -6,7 +6,10 @@ const Item = (props) => (
   onClick= {() => props.itemClick(props.id)}
 >
   {props.name}
+  <div>EDIT</div>
+  <div>DELETE</div>
 </li>
+
 )
 
 const styles = {

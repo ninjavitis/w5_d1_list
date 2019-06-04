@@ -37,7 +37,6 @@ handleSubmit(e){
 }
 
 handleChange(e){
-
   this.setState({ name: e.target.value, });
 
 }
